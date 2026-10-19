@@ -1,0 +1,5 @@
+Baseline config: Config(alpha=0.1, gamma=0.99, epsilon_start=1.0, epsilon_min=0.01, epsilon_decay=0.995, episodes=3000, seed=0)
+Avg reward, first 100 episodes: -635.09
+Avg reward, last 100 episodes:  7.16
+Avg steps,  last 100 episodes:  13.30
+Episodes until 100-ep average > 0: 1100

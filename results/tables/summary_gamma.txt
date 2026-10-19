@@ -1,0 +1,5 @@
+Experiment: gamma  (other settings = baseline, 5 seeds each)
+   value |  final reward (last 100) |  episodes to avg > 0 | std of last 500
+     0.5 |           2.78 ± 0.68    |                 2303 |           10.31
+     0.9 |           7.64 ± 0.18    |                 1191 |            3.55
+    0.99 |           7.35 ± 0.15    |                 1107 |            3.53

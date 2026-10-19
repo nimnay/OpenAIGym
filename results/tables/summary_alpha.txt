@@ -1,0 +1,5 @@
+Experiment: alpha  (other settings = baseline, 5 seeds each)
+   value |  final reward (last 100) |  episodes to avg > 0 | std of last 500
+     0.1 |           7.35 ± 0.15    |                 1107 |            3.53
+     0.5 |           7.15 ± 0.46    |                  510 |            3.28
+     0.9 |           7.29 ± 0.29    |                  477 |            3.31

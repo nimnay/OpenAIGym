@@ -1,0 +1,8 @@
+Noise experiment [low_alpha]: alpha=0.1, gamma=0.9, decay=0.995, episodes=10000
+5 training seeds per noise level; greedy evaluation on 100 test episodes per seed
+(eps to avg>0 = mean over seeds that got there, (k/5) = how many seeds did; 'never' = none)
+
+    p |   eps to avg>0 | train reward |    TRAINED AT p: reward / success / steps |   TRAINED AT p=0: reward / success / steps
+  0.0 |     1191 (5/5) |         7.43 |          8.26 ± 0.00  / 100.0% /  12.7 |            8.22 ± 0.00  / 100.0% /  12.8
+  0.1 |     4008 (5/5) |        -1.72 |         -0.28 ± 0.73  / 100.0% /  15.9 |            1.10 ± 0.85  / 100.0% /  14.8
+ 0.25 |          never |       -16.61 |        -15.53 ± 1.63  / 100.0% /  20.1 |          -14.45 ± 1.06  / 100.0% /  19.3

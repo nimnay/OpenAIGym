@@ -1,0 +1,5 @@
+Experiment: epsilon_decay  (other settings = baseline, 5 seeds each)
+   value |  final reward (last 100) |  episodes to avg > 0 | std of last 500
+    0.99 |           7.36 ± 0.52    |                 1128 |            3.54
+   0.995 |           7.35 ± 0.15    |                 1107 |            3.53
+   0.999 |           5.13 ± 0.33    |                 2064 |            6.39

@@ -1,0 +1,24 @@
+Model selection (greedy reward on validation episodes, mean of 3 training seeds):
+ alpha  gamma   decay | val reward | episodes to avg > 0
+   0.5    0.9   0.995 |       7.61 |                 507
+   0.5    0.9    0.99 |       7.60 |                 396
+   0.9   0.99   0.995 |       7.58 |                 466
+   0.9   0.99    0.99 |       7.54 |                 344
+   0.5   0.99    0.99 |       7.51 |                 399
+   0.9    0.9   0.995 |       7.50 |                 475
+   0.9    0.9    0.99 |       7.48 |                 346
+   0.5   0.99   0.995 |       6.92 |                 511
+   0.1   0.99   0.995 |       2.88 |                1095
+   0.1   0.99    0.99 |      -3.79 |                1122
+   0.1    0.9    0.99 |      -7.31 |                1196
+   0.1    0.9   0.995 |      -9.36 |                1175
+
+Best config: Config(alpha=0.5, gamma=0.9, epsilon_start=1.0, epsilon_min=0.01, epsilon_decay=0.995, episodes=3000, seed=0)
+
+Final evaluation: greedy policy, exploration OFF, 100 unseen test episodes
+Baseline   mean reward =   6.15 ± 20.86 | success rate =  99.0% | mean steps = 14.64 | min/max reward = -200/14
+Best       mean reward =   8.22 ± 2.45 | success rate = 100.0% | mean steps = 12.78 | min/max reward = 4/14
+
+For reference: TRAINING reward (with exploration), last 100 episodes
+Baseline 7.16 | Best 7.72
+Episodes to 100-ep avg > 0: Baseline 1100 | Best 491
